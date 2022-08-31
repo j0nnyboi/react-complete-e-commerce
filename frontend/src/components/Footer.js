@@ -7,16 +7,15 @@ const Footer = () => {
 			<Container>
 				<Row>
 					<Col className='text-center py-3'>
-						{/* Melvin Kisten */}
+						{/* Wrights Designs */}
 						<a
 							rel='noopener noreferrer'
-							href='https://github.com/iammelvink'
+							href='https://github.com/j0nnyboi'
 							target='_blank'
-							className='melvin-kisten'
+							className='j0nnyboi'
 						>
-							<i className='fas fa-user-circle'></i> Melvin Kisten Github
+							<i className='fas fa-user-circle'></i> Wrights Designs 
 						</a>
-						Copyright &copy; React E-Commerce
 					</Col>
 				</Row>
 			</Container>

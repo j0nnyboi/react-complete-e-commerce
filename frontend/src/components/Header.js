@@ -27,18 +27,9 @@ const Header = () => {
 				collapseOnSelect
 			>
 				<Container>
-					{/* Melvin Kisten */}
-					<a
-						rel='noopener noreferrer'
-						href='https://github.com/iammelvink'
-						target='_blank'
-						className='melvin-kisten'
-					>
-						<i className='fas fa-user-circle'></i> Melvin Kisten Github
-					</a>
 					{/* Home */}
 					<LinkContainer to='/'>
-						<Navbar.Brand>React E-Commerce</Navbar.Brand>
+						<Navbar.Brand>Wrights Designs</Navbar.Brand>
 					</LinkContainer>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>

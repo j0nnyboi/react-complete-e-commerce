@@ -171,7 +171,7 @@ const OrderScreen = ({ match }) => {
 													</Link>
 												</Col>
 												<Col md={4}>
-													{item.qty} x R{item.price} = R{item.qty * item.price}
+													{item.qty} x £{item.price} = £{item.qty * item.price}
 												</Col>
 											</Row>
 										</ListGroup.Item>
@@ -191,19 +191,19 @@ const OrderScreen = ({ match }) => {
 							<ListGroup.Item className='push-to-right'>
 								<Row>
 									<Col>Items</Col>
-									<Col>R{order.itemsPrice}</Col>
+									<Col>£{order.itemsPrice}</Col>
 								</Row>
 							</ListGroup.Item>
 							<ListGroup.Item className='push-to-right'>
 								<Row>
 									<Col>Shipping</Col>
-									<Col>R{order.shippingPrice}</Col>
+									<Col>£{order.shippingPrice}</Col>
 								</Row>
 							</ListGroup.Item>
 							<ListGroup.Item className='push-to-right'>
 								<Row>
 									<Col>Tax</Col>
-									<Col>R{order.taxPrice}</Col>
+									<Col>£{order.taxPrice}</Col>
 								</Row>
 							</ListGroup.Item>
 							<ListGroup.Item className='push-to-right'>
@@ -212,7 +212,7 @@ const OrderScreen = ({ match }) => {
 										<strong>Total</strong>
 									</Col>
 									<Col>
-										<strong>R{order.totalPrice}</strong>
+										<strong>£{order.totalPrice}</strong>
 									</Col>
 								</Row>
 							</ListGroup.Item>
