@@ -101,7 +101,7 @@ const CartScreen = ({ match, location, history }) => {
 								items
 							</h2>
 							<span className='push-to-right'>
-								R
+								£
 								{addDecimals(
 									cartItems
 										.reduce((acc, item) => acc + item.qty * item.price, 0)

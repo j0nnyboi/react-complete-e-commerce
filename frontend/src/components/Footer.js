@@ -14,7 +14,7 @@ const Footer = () => {
 							target='_blank'
 							className='j0nnyboi'
 						>
-							<i className='fas fa-user-circle'></i> Wrights Designs 
+							<i className='fas fa-user-circle'></i> Wrights Delights 
 						</a>
 					</Col>
 				</Row>
